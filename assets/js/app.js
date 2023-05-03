@@ -1,25 +1,4 @@
-// let inputText_1 = document.querySelector("#text-1");
-// let inputText_2 = document.querySelector("#text-2");
-// let checkBoxInPUT = document.querySelector(".check_input");
-// let addButton = document.querySelector(".add_button");
-// let form = document.querySelector(".form");
 
-
-// addButton.addEventListener("click", todoui);
-
-// function todoui() {
-//   let li = document.createElement("li");
-//   let text_value = inputText_1.value;
-//   list.appendChild(li);
-//   li.innerHTML = text_value;
-//   list.innerHTML = text_value;
-//   console.log('asdasd');
-
-// }
-
-
-
-//buradan itibaren
 let list = document.querySelector(".list");
 const addBtn = document.querySelector(".add_button");
 const contentInput = document.querySelector(".text_input");
@@ -83,25 +62,3 @@ clearButton.addEventListener("click", () => {
   renderlist();
 });
 
-
-
-
-//buraya kadar
-
-
-
-// remove.addEventListener("click", () => {
-//   data = [];
-//   renderlist();
-// });
-
-const products = [
-    {
-        id: 1,
-        title: "product 1",
-        description: "20 kelimeden fazlaysa ... eklenecek",
-        price: "1000",
-        discountedPrice: "0",
-        imageSet: ""
-    }
-]
